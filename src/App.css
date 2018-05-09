@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,300,100");
+
 body {
   background-color: #002b36;
   color: #aeb1b0;
@@ -9,16 +11,34 @@ body {
   */
 }
 
+h1,
+h2,
+h3,
+h4,
+p,
+span,
+button {
+  font-family: "Roboto";
+  font-weight: 100;
+  line-height: 1.1;
+  letter-spacing: 0.025em;
+}
+
 .App {
   text-align: center;
 }
 
+.Welcome {
+  animation-duration: 3s;
+}
 .App-title {
   margin-top: 50px;
+  line-height: 1.6em;
   font-size: 2.7em;
 }
 
 .App-intro {
+  padding: 20px;
   font-size: large;
 }
 .Installs::first-line {
@@ -28,8 +48,32 @@ body {
 /* Gif */
 
 .Gif {
-  width: 80%;
-  height: 50%;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  width: 60%;
+  border-radius: 5px;
+  padding-bottom: 30px;
+}
+
+/* Button */
+
+.Btn {
+  padding: 10px 24px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #09698180;
+  border: #19f9d8 solid 0.5px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+
+.Btn:hover {
+  background-color: #103c4780;
+  color: #aeb1b0;
+  transition: 0.5s ease-in-out;
 }
 
 /* Wrapper*/
@@ -43,17 +87,27 @@ body {
 }
 
 .Box {
-  background-color: #ffffff;
-  color: #000;
+  margin-top: 50px;
+  color: #fff;
 }
+
+.Available {
+  margin: 130px;
+}
+
+.Available-logo {
+  width: 150px;
+  height: 100px;
+}
+
 /* Footer */
 
 .Footer {
-  background-color: #09698180;
-  color: #fff;
+  background-color: #002b36;
   text-align: center;
+  border-top: 0.5px solid #19f9d8;
 }
 
 .Footer-p {
-  padding: 30px;
+  padding: 25px;
 }

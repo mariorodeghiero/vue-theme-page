@@ -7,7 +7,11 @@ class Gif extends Component {
         this.state = {};
     }
     render() {
-        return (<img src={gif} className="Gif"/>);
+        return (<img
+            src={gif}
+            className="Gif animated zoomIn"
+            title="Example image"
+            alt="Example image"/>);
     }
 }
 

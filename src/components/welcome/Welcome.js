@@ -8,9 +8,9 @@ class Welcome extends Component {
     }
     render() {
         return (
-            <div>
+            <div className="Welcome animated fadeIn">
                 <h1 className="App-title">Vue Theme</h1>
-                <p className="Installs">+6834 Developer using.</p>
+                <p className="Installs">+6900 Developer using.</p>
                 <p className="App-intro">Theme for Visual Studio Code inspired by Vue.js</p>
             </div>
         );
