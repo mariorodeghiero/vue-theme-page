@@ -5,10 +5,6 @@ body {
   color: #aeb1b0;
   height: 100vh;
   margin: 0;
-  /* 
-  * #19f9d8
-  * #09698180
-  */
 }
 
 h1,
@@ -29,7 +25,7 @@ button {
 }
 
 .Welcome {
-  animation-duration: 3s;
+  animation-duration: 4s;
 }
 .App-title {
   margin-top: 50px;
@@ -52,13 +48,13 @@ button {
   animation-delay: 0.5s;
   width: 60%;
   border-radius: 5px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 /* Button */
 
 .Btn {
-  padding: 10px 24px;
+  padding: 10px 30px;
   margin: 10px;
   border-radius: 5px;
   background-color: #09698180;
