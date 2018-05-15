@@ -4,11 +4,22 @@ import hiper from "../../img/hiper.png";
 import iterm2 from "../../img/iterm2.png";
 
 class Available extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
   render() {
+    const editors = [hiper, vscode, iterm2];
+
+    let images = editors.map(editor => {
+      return (
+        <div className="Box">
+          <img
+            src={editor}
+            className="Available-logo Unavailable"
+            title="Hiper terminal"
+            alt="Hiper terminal"
+          />
+          <p className="Contributed">Contributed</p>
+        </div>
+      );
+    });
     return (
       <div className="Available">
         <h2>Available for:</h2>
@@ -20,7 +31,6 @@ class Available extends Component {
               title="Hiper terminal"
               alt="Hiper terminal"
             />
-            <p className="Contributed">Contributed</p>
           </div>
           <div className="Box">
             <img
@@ -37,7 +47,6 @@ class Available extends Component {
               title="Iterm2"
               alt="Iterm2"
             />
-            <p className="Contributed">Contributed</p>
           </div>
         </div>
       </div>
