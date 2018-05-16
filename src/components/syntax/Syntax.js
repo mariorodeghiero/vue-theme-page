@@ -23,7 +23,7 @@ class Syntax extends Component {
     });
     return (
       <div className="Syntax">
-        <h2>Sintax Highlight:</h2>
+        <h2>Sintax highlighter:</h2>
         <ul>{images}</ul>
       </div>
     );

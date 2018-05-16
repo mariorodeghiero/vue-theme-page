@@ -11,15 +11,17 @@ import Syntax from "./components/syntax/Syntax";
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Welcome />
-        <Gif />
-        <Button />
-        <div className="Container">
-          <Overview />
-          <Syntax />
+      <div>
+        <div className="App">
+          <Welcome />
+          <Gif />
+          <Button />
+          <div className="Container">
+            <Overview />
+            <Syntax />
+          </div>
+          <Available />
         </div>
-        <Available />
         <Footer />
       </div>
     );
