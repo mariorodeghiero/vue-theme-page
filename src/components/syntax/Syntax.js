@@ -10,6 +10,8 @@ import react from "../../img/react.svg";
 import yarn from "../../img/yarn.svg";
 import html from "../../img/html.svg";
 
+// XML, EDITOR CONFIG, YANL
+
 class Syntax extends Component {
   render() {
     let icons = [html, css, php, js, vue, react, json, scss, markdown, yarn];
