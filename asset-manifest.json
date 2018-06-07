@@ -1,9 +1,10 @@
 {
-  "main.css": "static/css/main.53f4cb90.css",
-  "main.css.map": "static/css/main.53f4cb90.css.map",
-  "main.js": "static/js/main.bacc8522.js",
-  "main.js.map": "static/js/main.bacc8522.js.map",
+  "main.css": "static/css/main.7648588b.css",
+  "main.css.map": "static/css/main.7648588b.css.map",
+  "main.js": "static/js/main.8860a62e.js",
+  "main.js.map": "static/js/main.8860a62e.js.map",
   "static/media/css.svg": "static/media/css.f5da6f25.svg",
+  "static/media/editorconfig.svg": "static/media/editorconfig.622d2d1f.svg",
   "static/media/example-1.png": "static/media/example-1.6196700c.png",
   "static/media/html.svg": "static/media/html.8ee96cee.svg",
   "static/media/iterm2.png": "static/media/iterm2.e1ceff83.png",
@@ -15,5 +16,6 @@
   "static/media/scss.svg": "static/media/scss.bd817b06.svg",
   "static/media/vscode.svg": "static/media/vscode.6055d523.svg",
   "static/media/vue.svg": "static/media/vue.11e81d53.svg",
+  "static/media/xml.svg": "static/media/xml.05dea736.svg",
   "static/media/yarn.svg": "static/media/yarn.f5d6026e.svg"
 }
