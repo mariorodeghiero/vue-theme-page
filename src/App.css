@@ -66,6 +66,8 @@ button {
   transition: 0.5s ease-in-out;
   font-size: 0.8em;
   text-decoration: none;
+  animation-delay: 1.3s;
+  animation-duration: 5s;
 }
 
 .Btn:hover {
@@ -108,6 +110,8 @@ button {
 }
 
 .Container {
+  animation-delay: 1.5s;
+  animation-duration: 5s;
   margin-top: 100px;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -118,6 +122,8 @@ button {
   color: rgba(255, 255, 255, 0.856);
   margin-top: 100px;
   margin-bottom: 100px;
+  animation-delay: 1.8s;
+  animation-duration: 5s;
 }
 
 .Available-logo {
@@ -135,7 +141,7 @@ li {
   padding: 5px;
   list-style: none;
   transition: 1s ease-in-out;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 li:hover {
@@ -172,7 +178,11 @@ li:hover {
 }
 
 .Footer-p {
-  padding: 25px;
+  padding: 20px;
+}
+
+.Footer-p:first-letter {
+  font-size: 1.4em;
 }
 
 @media (min-width: 700px) {
@@ -186,5 +196,24 @@ li:hover {
   }
   .Overview > p {
     font-size: 1em;
+  }
+}
+
+@media (min-width: 1300px) {
+  .Container {
+    margin-top: 130px;
+  }
+
+  .Gif {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .Available {
+    margin-top: 150px;
+  }
+
+  .Box {
+    margin-top: 100px;
+    margin-bottom: 80px;
   }
 }

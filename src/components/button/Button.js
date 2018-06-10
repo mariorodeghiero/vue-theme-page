@@ -6,13 +6,13 @@ class Button extends Component {
       <div>
         <a
           href="https://marketplace.visualstudio.com/items?itemName=mariorodeghiero.vue-theme"
-          className="Btn"
+          className="Btn animated fadeIn"
         >
           Install
         </a>
         <a
           href="https://github.com/mariorodeghiero/vue-theme-vscode"
-          className="Btn"
+          className="Btn animated fadeIn"
         >
           Github
         </a>

@@ -21,8 +21,8 @@ class Available extends Component {
       );
     });
     return (
-      <div className="Available">
-        <h2>Available for:</h2>
+      <div className="Available animated fadeIn">
+        <h2>Available</h2>
         <div class="Wrapper">
           <div className="Box">
             <img

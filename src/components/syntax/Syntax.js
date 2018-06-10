@@ -9,12 +9,27 @@ import vue from "../../img/vue.svg";
 import react from "../../img/react.svg";
 import yarn from "../../img/yarn.svg";
 import html from "../../img/html.svg";
+import editorconfig from "../../img/editorconfig.svg";
+import xml from "../../img/xml.svg";
 
 // XML, EDITOR CONFIG, YANL
 
 class Syntax extends Component {
   render() {
-    let icons = [html, css, php, js, vue, react, json, scss, markdown, yarn];
+    let icons = [
+      html,
+      css,
+      php,
+      js,
+      vue,
+      react,
+      json,
+      scss,
+      markdown,
+      yarn,
+      editorconfig,
+      xml
+    ];
 
     let images = icons.map(icon => {
       return (
@@ -25,7 +40,7 @@ class Syntax extends Component {
     });
     return (
       <div className="Syntax">
-        <h2>Sintax highlighter:</h2>
+        <h2>Syntax Highlight:</h2>
         <ul>{images}</ul>
       </div>
     );

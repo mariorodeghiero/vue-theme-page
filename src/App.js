@@ -16,7 +16,7 @@ class App extends Component {
           <Welcome />
           <Gif />
           <Button />
-          <div className="Container">
+          <div className="Container animated fadeIn">
             <Overview />
             <Syntax />
           </div>

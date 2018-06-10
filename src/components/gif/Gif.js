@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import gif from "../../img/example-1.gif";
+import gif from "../../img/example-1.png";
 
 class Gif extends Component {
   constructor(props) {
@@ -11,8 +11,8 @@ class Gif extends Component {
       <img
         src={gif}
         className="Gif animated zoomIn"
-        title="Example image"
-        alt="Example image"
+        title="Example javascript"
+        alt="Example javascript"
       />
     );
   }
