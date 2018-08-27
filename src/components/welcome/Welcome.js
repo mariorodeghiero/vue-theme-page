@@ -5,7 +5,7 @@ class Welcome extends Component {
     return (
       <div className="Welcome animated fadeIn">
         <h1 className="App-title">Vue Theme</h1>
-        <p className="Installs">+21270 Installs</p>
+        <p className="Installs">+25300 Installs</p>
         <p className="App-intro">
           Theme for Visual Studio Code inspired by Vue.js
         </p>
