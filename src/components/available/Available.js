@@ -43,7 +43,7 @@ class Available extends Component {
           <div className="Box">
             <img
               src={iterm2}
-              className="Available-logo Unavailable"
+              className="Available-logo"
               title="Iterm2"
               alt="Iterm2"
             />
