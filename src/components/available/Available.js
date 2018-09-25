@@ -33,20 +33,32 @@ class Available extends Component {
             />
           </div>
           <div className="Box">
-            <img
-              src={vscode}
-              className="Available-logo"
-              title="Visual Studio code"
-              alt="Visual Studio Code"
-            />
+            <a
+              href="https://marketplace.visualstudio.com/items?itemName=mariorodeghiero.vue-theme"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={vscode}
+                className="Available-logo"
+                title="Visual Studio code"
+                alt="Visual Studio Code"
+              />
+            </a>
           </div>
           <div className="Box">
-            <img
-              src={iterm2}
-              className="Available-logo"
-              title="Iterm2"
-              alt="Iterm2"
-            />
+            <a
+              href="https://github.com/mariorodeghiero/vue-theme-iterm2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={iterm2}
+                className="Available-logo"
+                title="Iterm2"
+                alt="Iterm2"
+              />
+            </a>
           </div>
         </div>
       </div>
